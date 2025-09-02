@@ -1,0 +1,88 @@
+# ==============================================================================
+# Dependencies for the AI-Driven Software Engineering Program
+#
+# To install all dependencies, run the following command in your terminal
+# with your virtual environment activated:
+# pip install -r requirements.txt
+# ==============================================================================
+
+# -- Core Utilities & Notebook Environment --
+# Essential for running labs, managing environment variables, and basic tasks.
+python-dotenv         # Loads environment variables from a .env file
+ipython               # Used for advanced interactive shells and notebook displays
+jupyterlab            # The integrated development environment for notebooks and code
+requests              # For making HTTP requests to APIs
+Pillow                # Python Imaging Library for image manipulation
+
+# -- Web & API Development Framework --
+# For building and serving the backend application in Week 1.
+fastapi               # A modern, fast web framework for building APIs
+uvicorn[standard]     # ASGI server to run the FastAPI application, with performance extras
+SQLAlchemy            # The Python SQL toolkit and Object Relational Mapper (ORM)
+psycopg2-binary       # PostgreSQL adapter for Python
+
+# -- Data Validation & Schemas --
+# Used extensively for API request/response validation and data modeling.
+pydantic
+email-validator
+
+# -- Testing Framework --
+# For the Quality Assurance labs on Day 4.
+pytest                # A framework that makes it easy to write small, readable tests
+pytest-mock           # Provides a fixture for mocking objects during tests
+
+# -- LLM Providers & Core AI Frameworks --
+# The foundational libraries for interacting with LLMs and orchestrating AI workflows.
+openai                # Official Python client for the OpenAI API
+anthropic             # Official Python client for the Anthropic (Claude) API
+google-generativeai   # Official Python client for the Google Gemini API
+huggingface_hub       # Client for interacting with the Hugging Face Hub APIs
+langchain             # Core framework for building LLM-powered applications
+langchain-community   # Community-contributed components for LangChain
+langchain-openai      # OpenAI-specific integrations for LangChain
+
+# -- Agentic Systems & Orchestration --
+# Advanced frameworks for building multi-agent systems and complex workflows.
+langgraph             # LangChain's library for building stateful, multi-agent applications
+pyautogen             # Microsoft's framework for multi-agent conversation
+a2a-protocol          # Library for agent-to-agent communication protocol
+openai-agents         # OpenAI's framework for creating assistants
+smolagents            # A framework for building specialized, lightweight agents
+
+# -- RAG, Vector Stores, and Document Handling --
+# Libraries for building Retrieval-Augmented Generation (RAG) systems.
+faiss-cpu             # A library for efficient similarity search and clustering of dense vectors
+chromadb              # An open-source embedding database for RAG
+pypdf                 # A pure-python PDF library for reading PDF documents
+tiktoken              # A fast BPE tokeniser for use with OpenAI's models
+
+# -- High-Level RAG Framework --
+# An alternative framework for RAG explored on Day 6.
+llama-index
+
+# -- UI & Demo Frameworks --
+# For building simple web UIs to interact with the agents.
+streamlit             # A fast way to build and share data apps
+gradio                # A library for building and sharing ML apps
+
+# -- Specialized Protocols & Adapters --
+# For advanced agent workflows on Day 7.
+# model-context-protocol # A standardized protocol for structuring information sent to agents
+langchain-mcp-adapters # LangChain adapters for the Model Context Protocol
+
+# -- External Tools & APIs for Agents --
+# Libraries for tools that agents can use.
+tavily-python         # Python client for the Tavily Search API, optimized for LLMs
+openai                # OpenAI API client for GPT models and AI-powered features
+
+# -- Diagramming as Code --
+# For generating architecture diagrams on Day 2.
+plantuml
+
+# plaintext
+fastapi
+pydantic
+sqlalchemy
+uvicorn
+pytest
+openai

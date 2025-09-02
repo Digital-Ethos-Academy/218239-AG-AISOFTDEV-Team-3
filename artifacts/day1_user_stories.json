@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "user_story": "As a new hire, I want an interactive onboarding checklist, so that I can track my progress and ensure I complete all necessary tasks.",
+    "persona": "Emily, the New Hire",
+    "acceptance_criteria": [
+      "Given I am a new hire, When I log into the onboarding tool, Then I should see an interactive checklist with tasks and milestones.",
+      "Given I complete a task, When I mark it as done, Then the checklist should update my progress and completion status."
+    ]
+  },
+  {
+    "id": 2,
+    "user_story": "As a team manager, I want to track the progress of new hires, so that I can provide support where needed.",
+    "persona": "Michael, the Team Manager",
+    "acceptance_criteria": [
+      "Given I am a team manager, When I access the onboarding tool, Then I should see a dashboard with the progress of each new hire.",
+      "Given a new hire is falling behind, When I review their progress, Then I should be able to identify areas where they need additional support."
+    ]
+  },
+  {
+    "id": 3,
+    "user_story": "As an HR specialist, I want a personalized welcome dashboard for new hires, so that they feel welcomed and informed about the company culture.",
+    "persona": "Sarah, the HR Specialist",
+    "acceptance_criteria": [
+      "Given a new hire logs into the onboarding tool, When they access the welcome dashboard, Then they should see a personalized welcome message.",
+      "Given the welcome dashboard, When a new hire views it, Then it should include an overview of company values and culture."
+    ]
+  },
+  {
+    "id": 4,
+    "user_story": "As a new hire, I want access to training modules, so that I can learn about the tools and processes used in my role.",
+    "persona": "Emily, the New Hire",
+    "acceptance_criteria": [
+      "Given I am a new hire, When I access the training section, Then I should see a list of interactive training modules relevant to my role.",
+      "Given I complete a training module, When I take a quiz, Then I should receive feedback on my performance."
+    ]
+  },
+  {
+    "id": 5,
+    "user_story": "As a team manager, I want to receive insights into new hires' training progress, so that I can ensure they are on track.",
+    "persona": "Michael, the Team Manager",
+    "acceptance_criteria": [
+      "Given I am a team manager, When I access the training insights, Then I should see the completion status of each new hire's training modules.",
+      "Given a new hire is struggling with a module, When I review their quiz results, Then I should be able to identify areas for improvement."
+    ]
+  },
+  {
+    "id": 6,
+    "user_story": "As an HR specialist, I want an easy document management system, so that new hires can submit necessary documents efficiently.",
+    "persona": "Sarah, the HR Specialist",
+    "acceptance_criteria": [
+      "Given a new hire needs to submit documents, When they access the document management section, Then they should be able to upload documents easily.",
+      "Given a document requires a signature, When a new hire views it, Then they should be able to sign it electronically."
+    ]
+  },
+  {
+    "id": 7,
+    "user_story": "As a new hire, I want a communication hub, so that I can easily contact HR and my team members.",
+    "persona": "Emily, the New Hire",
+    "acceptance_criteria": [
+      "Given I am a new hire, When I access the communication hub, Then I should be able to send direct messages to HR and team members.",
+      "Given I have a question, When I schedule a Q&A session, Then I should receive confirmation of the scheduled time with a mentor."
+    ]
+  },
+  {
+    "id": 8,
+    "user_story": "As a team manager, I want to be notified of new hires' questions, so that I can provide timely support.",
+    "persona": "Michael, the Team Manager",
+    "acceptance_criteria": [
+      "Given a new hire sends a question, When I receive a notification, Then I should be able to respond directly through the communication hub.",
+      "Given a Q&A session is scheduled, When the time approaches, Then I should receive a reminder to join the session."
+    ]
+  },
+  {
+    "id": 9,
+    "user_story": "As an HR specialist, I want to gather feedback from new hires, so that I can improve the onboarding process.",
+    "persona": "Sarah, the HR Specialist",
+    "acceptance_criteria": [
+      "Given a new hire completes a milestone, When they access the feedback form, Then they should be able to submit anonymous feedback.",
+      "Given feedback is submitted, When I review it, Then I should be able to identify areas for improvement in the onboarding process."
+    ]
+  }
+]

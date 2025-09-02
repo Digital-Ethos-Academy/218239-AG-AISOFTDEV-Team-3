@@ -1,0 +1,28 @@
+@startuml
+!define RECTANGLE class
+
+RECTANGLE Frontend [
+  <b>Frontend</b>
+  (Web Browser)
+]
+
+RECTANGLE BackendAPIServer [
+  <b>Backend API Server</b>
+  (REST API)
+]
+
+RECTANGLE WebSocketServer [
+  <b>WebSocket Server</b>
+  (Real-time Messaging)
+]
+
+database Database [
+  <b>Database</b>
+]
+
+Frontend -[#blue]-> BackendAPIServer : HTTPS\n(Login, Message History)
+Frontend -[#green]- WebSocketServer : WebSocket\n(Real-time Messaging)
+WebSocketServer -[#red]-> BackendAPIServer : New Message\n(Store Message)
+BackendAPIServer -[#black]-> Database : Read/Write
+
+@enduml
